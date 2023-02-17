@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*Programm to print a line using puts()*/
+/* program to print using puts */
 
-int main(void){
- puts("\"Programming is like building a multilingual puzzle");
-    return 0;
+int main(void)
+{
+	puts("Programming is like building a multilingual puzzle");
+	return (0);
 }
