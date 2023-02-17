@@ -4,7 +4,7 @@
 
 /*
  *Program determines if a number is negative, positive or zero
- *Return 0: Success 
+ *Return 0: Success
  */
 int main(void)
 
