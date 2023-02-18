@@ -4,8 +4,10 @@
 
 /**
  * Main - begins program
+ *
  * Description: Determines if a number is negative, positive or zero
- * Return: (Success)
+ *
+ * Return:  0 (Success)
  */
 int main(void)
 
