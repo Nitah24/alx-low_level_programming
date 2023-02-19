@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * Main - begins program
+ * main - entry level
  *
- * Description: Determines if a number is negative, positive or zero
- *
- * Return:  0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 
