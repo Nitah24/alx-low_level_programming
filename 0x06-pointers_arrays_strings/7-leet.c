@@ -10,16 +10,16 @@ char *leet(char *str)
 {
 	int i, index;
 
-	char lowCase[5]  = {'a', 'e', 'o', 't', 'l'};
-	char upCase[5] = {'A', 'E', 'O', 'T', 'L'};
-	char num[5] = {4, 3, 0, 7, 1};
+	char lowCase[6]  = {'a', 'e', 'o', 't', 'l'};
+	char upCase[6] = {'A', 'E', 'O', 'T', 'L'};
+	char num[6] = {'4', '3', '0', '7', '1'};
 
-for (i = 0; i < 5; i++)
+for (index = 0; str[index]; index++)
 {
-if (lowCase[i] || upCase[i])
+for (i = 0; i < 6; i++)
 {
-	for (index = 0; str[index]; index++)
-	{
+if (str[index] == lowCase[i] || str[index] == upCase[i])
+{
 	str[index] = num[i];
 }
 }
