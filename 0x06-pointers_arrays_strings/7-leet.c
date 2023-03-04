@@ -18,7 +18,7 @@ char *leet(char *str)
 
 for (index = 0; str[index]; index++)
 {
-for (i = 0; i > 5; i++)
+for (i = 0; i < 5; i++)
 {
 if (lowCase[i] || upCase[i])
 {
