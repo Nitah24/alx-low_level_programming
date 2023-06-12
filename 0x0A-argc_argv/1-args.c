@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - entry point
+ * main - entry level
  * @argc: count of arguments
- * @argv: array of ponters to arguments
+ * @argv: array of poiters
  * Return: always 0 success
  */
 
@@ -12,10 +12,13 @@ int main(int argc, __attribute__((unused)) char *argv[])
 {
 	int i;
 
-	for (i = 0; i < argc; i++)
+	if  (argc >= 1)
 	{
-	argc = i;
-	printf("%d\n", argc);
+		for (i = 0; i < argc; i++)
+		{
+			argc = i;
+			printf("%d\n", argc);
+		}
 	}
 	return (0);
 }
