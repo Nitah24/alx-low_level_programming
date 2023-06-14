@@ -10,15 +10,6 @@
 
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-	int i;
-
-	if  (argc >= 1)
-	{
-		for (i = 0; i < argc; i++)
-		{
-			argc = i;
-			printf("%d\n", argc);
-		}
-	}
+	printf("%d\n", (argc - 1));
 	return (0);
 }
