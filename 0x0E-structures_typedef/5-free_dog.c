@@ -3,7 +3,7 @@
 
 /**
  * free_dog - function that frees dogs
- * d: pointer to structure
+ * @d: pointer to structure
  * Return: nothing
  */
 
