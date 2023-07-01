@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * new dog - function to create a new dog
+ * new_dog - function to create a new dog
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
