@@ -1,20 +1,25 @@
 #ifndef _HEADER_
 #define _HEADER_
 
+
 /**
- * struct dog - strycture with dog details
+ * struct dog - stucture woth dog details
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
  *
- * Description: data structure containing data about dog
+ * Description: newy name for truct dog
  */
+
 typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 } dog;
+
+typedef struct dog dog_t;
+
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 #endif
