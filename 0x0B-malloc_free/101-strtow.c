@@ -42,7 +42,7 @@ int wcount(char *str)
 		if (*(str + index) != ' ')
 		{
 			count++;
-			index += wlength(str + length);
+			index += wlength(str + index);
 		}
 	}
 	return (count);
